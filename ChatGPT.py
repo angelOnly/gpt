@@ -23,27 +23,7 @@ import random
 class ChatGPT(object):
     def __init__(self):
         self.api_key_list = [
-            # "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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",
-            "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"
+            
         ]
         # openai.api_key = "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"
         self.model = "gpt-3.5-turbo"
